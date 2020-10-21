@@ -5,6 +5,23 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(
+    41deg,
+    rgba(26, 89, 158, 1) 0%,
+    rgba(70, 143, 224, 1) 42%,
+    rgba(99, 166, 241, 1) 100%
+  );
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+#root {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 code {
